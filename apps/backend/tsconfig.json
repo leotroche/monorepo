@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		/* Base Options */
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"module": "ESNext",
+		"target": "ESNext",
+
+		/* Strictness */
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true
+	},
+	"exclude": ["node_modules"]
+}
