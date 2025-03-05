@@ -4,7 +4,11 @@ import { SERVER_PORT } from './config/env'
 
 const app = express()
 
-app.use(cors())
+app.use(
+	cors({
+		origin: ['http://localhost:5173'],
+	}),
+)
 app.use(json())
 
 app.get('/api', (_, res) => {
