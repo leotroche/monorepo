@@ -1,15 +1,19 @@
 {
 	"compilerOptions": {
-		/* Base Options */
+		// Base Options
 		"esModuleInterop": true,
 		"skipLibCheck": true,
-		"module": "ESNext",
-		"target": "ESNext",
+		"target": "ES2024",
 
-		/* Strictness */
+		// Bundler Mode
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		"noEmit": true,
+
+		// Linting
 		"strict": true,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true
 	},
-	"exclude": ["node_modules"]
+	"include": ["src"]
 }
