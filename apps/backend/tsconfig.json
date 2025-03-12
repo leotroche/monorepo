@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		/* base options */
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"target": "es2022",
+		"allowJs": true,
+		"resolveJsonModule": true,
+
+		/* bundler mode */
+		"module": "preserve",
+		"noEmit": true,
+
+		/* type checking */
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+
+		/* paths aliases */
+		"paths": {
+			"~/*": ["./src/*"]
+		}
+	},
+	"include": ["src"]
+}
