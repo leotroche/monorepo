@@ -1,5 +1,8 @@
 {
   "scripts": {
+    "dev": "pnpm -r run dev",
+    "dev:client": "pnpm --filter client run dev",
+    "dev:server": "pnpm --filter server run dev",
     "format": "prettier . --write",
     "lint": "oxlint . --fix"
   },
