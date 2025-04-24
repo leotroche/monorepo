@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx --env-file=.env --watch ./src/index.ts",
+    "build": "tsc && tsup",
+    "preview": "node --env-file=.env ./dist/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.3"
+  }
+}
