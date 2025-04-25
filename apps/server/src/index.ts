@@ -1,6 +1,6 @@
+import { env } from '@/config/env'
 import cors from 'cors'
 import express, { json } from 'express'
-import { env } from './config/env'
 
 const app = express()
 
