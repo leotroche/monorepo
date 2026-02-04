@@ -3,5 +3,8 @@
   "private": true,
   "type": "module",
   "main": "dist/index.ts",
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "hono": "^4.11.7"
+  }
 }
