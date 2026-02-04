@@ -7,6 +7,9 @@
     "./shared"
   ],
   "scripts": {
+    "dev": "bun --filter client --filter server dev",
+    "build": "bun --filter client --filter server build",
+    "start": "bun --filter client --filter server start",
     "fmt": "oxfmt --write",
     "lint": "oxlint --fix"
   },
