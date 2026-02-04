@@ -1,0 +1,14 @@
+{
+  "name": "monorepo",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "oxfmt": "^0.28.0",
+    "oxlint": "^1.43.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
