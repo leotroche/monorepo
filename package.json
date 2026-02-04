@@ -1,8 +1,11 @@
 {
   "name": "monorepo",
   "private": true,
-  "type": "module",
-  "module": "index.ts",
+  "workspaces": [
+    "./client",
+    "./server",
+    "./shared"
+  ],
   "scripts": {
     "fmt": "oxfmt --write",
     "lint": "oxlint --fix"
